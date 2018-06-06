@@ -28,7 +28,8 @@
       $(document).ready(function(){
         $(window).on('scroll', function(){
           $('.header').toggleClass('hide', $(window).scrollTop()
-          > zero)
+          > zero);
+        zero = $(window).scrollTop()
         })
       })
   </script>
