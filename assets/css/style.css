@@ -1054,6 +1054,9 @@ input {
   background: rgba(12, 26, 42, .5)
 }
 
+.header.is-scrolled {
+  background: rgba(12, 26, 42, .5)
+}
 
 .container-fluid-max {
   width: 100%;
