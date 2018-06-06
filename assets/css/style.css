@@ -1067,13 +1067,7 @@ input {
   transition: all .25s cubic-bezier(.694, .048, .335, 1)
 }
 
-.header.is-hidden {
-  top: -150px
-}
 
-.header.is-scrolled {
-  background: rgba(12, 26, 42, .5)
-}
 
 .logo {
   position: relative;
