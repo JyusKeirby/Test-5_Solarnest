@@ -7,9 +7,6 @@
  * Copyright 2013. MIT licensed.
  */
 /*Test */
-.nav-up {
-  top: -40px;
-}
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
@@ -1049,6 +1046,11 @@ input {
   float: right
 }
 
+.nav-up {
+  top: -40px;
+}
+
+
 .container-fluid-max {
   width: 100%;
   padding: 0
@@ -1065,7 +1067,9 @@ input {
   transition: all .25s cubic-bezier(.694, .048, .335, 1)
 }
 
-
+.header.is-hidden {
+  top: -40px
+}
 
 .header.is-scrolled {
   background: rgba(12, 26, 42, .5)
