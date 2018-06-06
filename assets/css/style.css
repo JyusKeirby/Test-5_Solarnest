@@ -1047,7 +1047,7 @@ input {
 }
 
 .nav-up {
-  top: -40px;
+  top: -150px;
 }
 
 
@@ -1068,7 +1068,7 @@ input {
 }
 
 .header.is-hidden {
-  top: -40px
+  top: -150px
 }
 
 .header.is-scrolled {
