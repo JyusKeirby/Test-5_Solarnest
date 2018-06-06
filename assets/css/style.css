@@ -1276,7 +1276,7 @@ input {
   .nav-transition {
     display: block;
     left: 120%;
-    -webkit-transition: all .5s ease;
+    -webkit-transition: all .25s ease;
     transition: all .25s ease
   }
   .nav-transition.is-open {
