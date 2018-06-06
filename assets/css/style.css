@@ -1047,7 +1047,7 @@ input {
 }
 
 .nav-up {
-  top: -91px;
+  top: -100px;
 }
 
 
@@ -1067,9 +1067,6 @@ input {
   transition: all .25s cubic-bezier(.694, .048, .335, 1)
 }
 
-.header.is-hidden {
-  top: -91px
-}
 
 .header.is-scrolled {
   background: rgba(12, 26, 42, .5)
