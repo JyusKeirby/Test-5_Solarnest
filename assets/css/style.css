@@ -1047,7 +1047,8 @@ input {
 }
 
 .nav-up {
-  top: -150px;
+  top: -40px;
+  background: rgba(12, 26, 42, .5)
 }
 
 
@@ -1066,7 +1067,6 @@ input {
   -webkit-transition: all .25s cubic-bezier(.694, .048, .335, 1);
   transition: all .25s cubic-bezier(.694, .048, .335, 1)
 }
-
 
 
 .logo {
