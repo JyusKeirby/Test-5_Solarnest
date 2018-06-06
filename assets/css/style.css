@@ -1068,7 +1068,7 @@ input {
 }
 
 .header.is-hidden {
-  top: -80px
+  top: -100px
 }
 
 .header.is-scrolled {
