@@ -7,7 +7,27 @@
  * Copyright 2013. MIT licensed.
  */
 /*Test */
+#main-menu {
+  background-color: #333; 
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  transition: top 0.3s; 
+}
 
+#main-menu.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#main-menu.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 
 
