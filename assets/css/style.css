@@ -7,19 +7,7 @@
  * Copyright 2013. MIT licensed.
  */
 /*Test */
-.fixed {
-  position: fixed;
-  background: white;
-  border-bottom: 2px solid #eaeaea;
-  width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 9994;
-  height: 80px;
-  /* MAGIC HAPPENS HERE */
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-}
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
@@ -1288,7 +1276,7 @@ input {
   .nav-transition {
     display: block;
     left: 120%;
-    -webkit-transition: all .25s ease;
+    -webkit-transition: all .5s ease;
     transition: all .25s ease
   }
   .nav-transition.is-open {
