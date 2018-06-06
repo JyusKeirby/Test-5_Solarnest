@@ -1048,6 +1048,9 @@ input {
 
 .nav-up {
   top: -40px;
+  
+}
+.nav-down {
   background: rgba(12, 26, 42, .5)
 }
 
